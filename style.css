@@ -1,0 +1,135 @@
+
+Kyle Usinar
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    /* height: 100px; */
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#school{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+body{
+background-image: url('attbg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+ body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        filter: blur(5px); 
+        z-index: -1;
+      }
+
+
+/* --------------login form ----  */
+
+
+  /* --------------student form -------------- */
+  table,
+td,
+th {
+    .column-container {
+        column-count: 3; 
+        column-gap: 20px; 
+      }
+      
+.column-item {
+        margin-bottom: 20px; 
+      }
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin: auto;
+margin-top: 50px;
+
+
+}
+
+th,
+td {
+padding: 20px;
+text-align: center;
+color:black;	
+}
+
+tr > th {
+
+color:black;
+}
+
+.studentData{
+    width: 100%;
+   
+    padding: 40px;
+
+}
+#form1{
+    margin: auto;
+
+    width: 100%;
+    
+}
+#form1 input{
+    padding: 10px ;
+    margin-right: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+#form1 input:focus{
+    outline: none;
+color: black;
+}
+
+.td5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+
+}
+.td5 > button{
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+} 
+
+.td5 > button:nth-child(1){
+    background-color: green;
+}
+.td5 > button:nth-child(2){
+    background-color: red;
+}
+
+#absent{
+    background-color:red;
+}
+.btn-delete {
+    background-color: blue;
+}
